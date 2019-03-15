@@ -18,6 +18,8 @@ import makeymakeyImage from './makeymakey.png';
 import makeymakeyInsetImage from './makeymakey-small.svg';
 import boostImage from './boost.png';
 import boostInsetImage from './boost-small.svg';
+import ftduinoImage from './ftduino.png';
+import ftduinoInsetImage from './ftduino-small.svg';
 
 import microbitPeripheralImage from './peripheral-connection/microbit/microbit-illustration.svg';
 import microbitMenuImage from './peripheral-connection/microbit/microbit-small.svg';
@@ -28,6 +30,21 @@ import wedoMenuImage from './peripheral-connection/wedo/wedo-small.svg';
 import wedoButtonImage from './peripheral-connection/wedo/wedo-button-illustration.svg';
 
 export default [
+    {
+	name: 'ftDuino',
+	extensionId: 'ftduino',
+        collaborator: 'Till',
+        iconURL: ftduinoImage,
+        insetIconURL: ftduinoInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="Control fischertechnik models."
+                description="Description for the 'ftDuino' extension"
+                id="gui.extension.ftduino.description"
+            />
+        ),
+        featured: true
+    },
     {
         name: (
             <FormattedMessage
