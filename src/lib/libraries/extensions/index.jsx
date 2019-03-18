@@ -33,7 +33,7 @@ export default [
     {
 	name: 'ftDuino',
 	extensionId: 'ftduino',
-        collaborator: 'Till',
+        collaborator: 'Till Harbaum\nhttp://ftduino.de',
         iconURL: ftduinoImage,
         insetIconURL: ftduinoInsetImage,
         description: (
