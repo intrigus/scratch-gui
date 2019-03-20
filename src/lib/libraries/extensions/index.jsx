@@ -46,8 +46,8 @@ export default [
 	name: 'ftDuino',
 	extensionId: 'ftduino',
         collaborator: 'Till Harbaum\nhttp://ftduino.de',
-        iconURL: ftduinoIconUrl,
-        insetIconURL: ftduinoInsetIconUrl,
+        iconURL: ftduinoIconURL,
+        insetIconURL: ftduinoInsetIconURL,
         description: (
             <FormattedMessage
                 defaultMessage="Control fischertechnik models."
