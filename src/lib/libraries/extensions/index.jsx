@@ -78,6 +78,31 @@ export default [
         featured: true
     },
     {
+	name: 'ftDuino-offline',
+	extensionId: 'ftduinoOffline',
+        collaborator: 'SOC4S',
+        iconURL: ftduinoIconURL,
+        insetIconURL: ftduinoInsetIconURL,
+        useAutoScan: false,
+        description: (
+            <FormattedMessage
+                defaultMessage="DUMMY. Control fischertechnik models."
+                description="Description for the 'ftDuino-offline' extension"
+                id="gui.extension.ftduino-offline.description"
+            />
+        ),
+        connectionIconURL: ftduinoConnectionIconURL,
+	connectionSmallIconURL: ftduinoConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting ftDuino"
+                description="Message to help people connect to their ftDuino."
+                id="gui.extension.ftduino-offline.connectingMessage"
+            />
+        ),
+        featured: true
+    },
+    {
         name: (
             <FormattedMessage
                 defaultMessage="Music"
